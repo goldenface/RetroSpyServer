@@ -4,11 +4,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
-
   <ItemGroup>
-    <Folder Include="Pages\pubsvs\auth\" />
-    <Folder Include="Pages\pubsvs\comp\" />
-    <Folder Include="Pages\sake\" />
+    <PackageReference Include="SoapCore" Version="0.9.9.8-beta" />
   </ItemGroup>
 
 </Project>
